@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6f60b1730ae3b4894f623c84c40373, type: 3}
+  m_Name: Tower01CanonNew
+  m_EditorClassIdentifier: 
+  towerPrefabs: {fileID: 8024854130194681021, guid: 45a2f1f11fbfbf34dafc3f37635a7c25,
+    type: 3}
+  followTowerPrefab: {fileID: 15588429305109983, guid: 5e8e064dd09c363488f9b6e1c8d65b73,
+    type: 3}
+  weapon:
+  - sprite: {fileID: 21300000, guid: 3102e36129e025447ac4db997ff6aa73, type: 3}
+    animatorController: {fileID: 9100000, guid: 4068fae4178a3a949a528ab636d6ed95,
+      type: 2}
+    damage: 0.5
+    slow: 0
+    buff: 0
+    rate: 0.5
+    range: 2
+    cost: 60
+    sell: 30
+  - sprite: {fileID: 21300000, guid: 3565155688cb04c4abbe5fa191cb9d76, type: 3}
+    animatorController: {fileID: 9100000, guid: db1f4d4bc33a91d4b95bb416c9f50c8b,
+      type: 2}
+    damage: 1
+    slow: 0
+    buff: 0
+    rate: 0.4
+    range: 2.3
+    cost: 100
+    sell: 80
+  - sprite: {fileID: 21300000, guid: 043c17c8a49c90b4f8764db2099b295c, type: 3}
+    animatorController: {fileID: 9100000, guid: 0e5299b5930106242b1257a1a709756f,
+      type: 2}
+    damage: 2
+    slow: 0
+    buff: 0
+    rate: 0.3
+    range: 2.5
+    cost: 200
+    sell: 180

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e437c61c8abbc94fa509c80d826df43, type: 3}
+  m_Name: RandomSeed
+  m_EditorClassIdentifier: 
+  seedName: RandomSeed
+  seedPrefab: {fileID: 122990346050842083, guid: c19e048614bda2043a0f809bc0b428b0,
+    type: 3}
+  seeds:
+  - sprite: {fileID: 21300000, guid: d14a6dff798ff5b46b1e4543d35aaf46, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 0
+    sell: 10000
+    rate: 500
+  - sprite: {fileID: 21300000, guid: 47dd63e578bdcb64fbd5f67abbf6e5d2, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 1
+    sell: 19500
+    rate: 666
+  - sprite: {fileID: 21300000, guid: 8017c351730194a4ea31acaa6c9712cc, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 2
+    sell: 56550
+    rate: 800
+  - sprite: {fileID: 21300000, guid: 5d5a2a379d6fdd2409c2e31dab43a2ef, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 3
+    sell: 214889
+    rate: 885
+  - sprite: {fileID: 21300000, guid: c5e8d80e662908846965cb878bbb34a4, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 4
+    sell: 1246356
+    rate: 950
+  - sprite: {fileID: 21300000, guid: 502b534b6fb357949bc1b22d606ec2ce, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 5
+    sell: 9472305
+    rate: 0

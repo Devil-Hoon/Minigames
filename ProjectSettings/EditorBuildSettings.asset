@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MinigameMain.unity
+    guid: 22ab58d1b9f9081498a043580990b6cf
+  - enabled: 1
+    path: Assets/Gunfight/Scenes/GunfightMain.unity
+    guid: 318941a364fffd149b0932a11d17e0ba
+  - enabled: 1
+    path: Assets/Gunfight/Scenes/GunfightLobby.unity
+    guid: 6ee96c4599d2d6c469573538b7d69b2f
+  - enabled: 1
+    path: Assets/Gunfight/Scenes/GunfightPlay.unity
+    guid: e2bae4b1afdc0bf40b720d2d3f05588c
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameMain.unity
+    guid: 4825d0c40fe5c3b47889a1f1a61a2798
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStageMove1.unity
+    guid: 481178a6837f3ef4a995e3299db8161c
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStage1.unity
+    guid: bf245e1d06877af4695e1d41b227aba6
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStageMove2.unity
+    guid: def04f2e1f720854a9214b9653d64fdf
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStage2.unity
+    guid: 26221f57ed6b2f047b6751d674c6cd91
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStageMove3.unity
+    guid: 3b5294eab5a031c4abce17c43392a496
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStage3.unity
+    guid: 7eb0eeb4a54e4204cb23c38b0bf30b37
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStageMove4.unity
+    guid: 3a7dad21e2dd4634c818053eb4f3ca21
+  - enabled: 1
+    path: Assets/CardMemoryGame/Scenes/CardMemoryGameStage4.unity
+    guid: 819ec66850b2a0b4bac2f91986dc7952
+  - enabled: 1
+    path: Assets/EnchantGame/Scenes/EnchantGameMain.unity
+    guid: 1e7bfff4d186f9440994059f5dd4188e
+  - enabled: 1
+    path: Assets/EnchantGame/Scenes/EnchantGamePlay.unity
+    guid: aace88834f17d2540b08e0f5fa76013e
+  - enabled: 1
+    path: Assets/SpaceDefence/Scenes/SpaceDefenceMain.unity
+    guid: b80598f4646e6234ab8a48c0fad5368f
+  - enabled: 1
+    path: Assets/SpaceDefence/Scenes/SpaceDefenceStage.unity
+    guid: 358e0dcf043ded14993b08e3b2ff9c5c
+  m_configObjects: {}

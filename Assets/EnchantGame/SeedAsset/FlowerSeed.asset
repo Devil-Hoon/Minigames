@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e437c61c8abbc94fa509c80d826df43, type: 3}
+  m_Name: FlowerSeed
+  m_EditorClassIdentifier: 
+  seedName: FlowerSeed
+  seedPrefab: {fileID: 122990346050842083, guid: ee43b52ce0dd2174b8b419e7adb4ea2f,
+    type: 3}
+  seeds:
+  - sprite: {fileID: 21300000, guid: ee75ff276c5bb904b82a72330d490738, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 0
+    sell: 500
+    rate: 500
+  - sprite: {fileID: 21300000, guid: 07684bfa3564ef64b8c1891cabc5300a, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 1
+    sell: 1000
+    rate: 500
+  - sprite: {fileID: 21300000, guid: 0f0a3f352fc122d42b5c59737ed720db, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 2
+    sell: 2000
+    rate: 500
+  - sprite: {fileID: 21300000, guid: 942f6f78af9c900458f864e696eb5c6d, type: 3}
+    animatorController: {fileID: 0}
+    enchant: 3
+    sell: 4400
+    rate: 500
