@@ -78,7 +78,7 @@ public static class DBManager
 		string id = id_input;
 		string password = password_input;
 		//string passwordHash = passwordEncryption(id + password);
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
@@ -192,7 +192,7 @@ public static class DBManager
 			return true;
 		}
 
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
@@ -218,7 +218,7 @@ public static class DBManager
 	public static void LoadGP()
 	{
 		string id = username;
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
@@ -263,7 +263,7 @@ public static class DBManager
 
 	public static void UpdateAdminDataTrade()
 	{
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
@@ -285,7 +285,7 @@ public static class DBManager
 	}
 	public static void UpdateAdminDataEnchant()
 	{
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
@@ -308,7 +308,7 @@ public static class DBManager
 
 	public static bool GameVersionCheck()
 	{
-		string sqlConnect = "server=pickstar.co.kr;uid=pickstar;pwd=xktmvlr10;database=pickstar;charset=utf8;";
+		string sqlConnect = "server=servername;uid=id;pwd=password;database=database;charset=utf8;";
 		string tempVersion;
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
